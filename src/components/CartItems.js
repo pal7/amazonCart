@@ -8,8 +8,8 @@ function CartItems({ items }) {
       <h1>Shopping Cart</h1>
       <hr />
       <div className="CartItems-items">
-        {/* array with products.mpa(product) => render */}
-        //map through items and pass this.props.
+        {/* array with products.map(product) => render */}
+        {/* //map through items and pass this.props. */}
         {items.map((item) => {
           return <CartItem item={item} />;
         })}

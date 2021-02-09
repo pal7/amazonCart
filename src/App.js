@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "./App.css"; //styling using a CSS file
-import Header from "./components/Header";
+import Header from "./Header";
 import CartItems from "./components/CartItems";
 import CartTotal from "./components/CartTotal";
 import data from "./Data";
