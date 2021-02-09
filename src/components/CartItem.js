@@ -28,7 +28,7 @@ function CartItem({ item, key }) {
           <div className="item-delete">Delete</div>
         </div>
       </div>
-      <div className="CartItem-price">$ 789</div>
+      <div className="CartItem-price">$ 786</div>
     </div>
   );
 }
