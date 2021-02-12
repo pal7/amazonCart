@@ -5,7 +5,10 @@
 }
 
 .CartItem-image {
-  width: 150px;
+  width: 180px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin-right: 16px;
 }
 
 .CartItem-image img {
@@ -21,8 +24,10 @@
 
 .CartItem-price {
   flex: 0.3;
-  font-size: 30px;
+  font-size: 18px;
   text-align: center;
+  font-weight: 700;
+  margin-left: 16px;
 }
 
 .info-title h2 {

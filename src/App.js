@@ -18,8 +18,8 @@ function App() {
       {/* <h1 style={{ color: "green", backgroundColor: "#222" }}> YO Boys</h1> //Inline styling
       <h1 style={h1Style}>HELLO</h1> */}
       <div className="App-main">
-        <CartItems items={cartItems} />
-        <CartTotal />
+        <CartItems items={cartItems} setCartItems={setCartItems} />
+        <CartTotal items={cartItems} />
       </div>
     </div>
   );
