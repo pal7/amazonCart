@@ -2,6 +2,14 @@ import React from "react";
 import "./CartItem.css";
 
 function CartItem({ item, changeQuantityItem, index, deleteItem }) {
+  const getSubTotal = (item) => {
+    let subTotal = 0;
+    subTotal = item.price * item.quantity;
+    subTotal = subTotal.toFixed(2);
+
+    return subTotal;
+  };
+
   return (
     <div className="CartItem">
       <div className="CartItem-image">
@@ -39,7 +47,7 @@ function CartItem({ item, changeQuantityItem, index, deleteItem }) {
           </div>
         </div>
       </div>
-      <div className="CartItem-price">{item.price}</div>
+      <div className="CartItem-price">{getSubTotal(item)}</div>
     </div>
   );
 }
