@@ -23,9 +23,9 @@
 }
 
 .CartItem-price {
-  flex: 0.3;
   font-size: 18px;
-  text-align: center;
+  /* text-align: center; */
+  margin-right: 15px;
   font-weight: 700;
   margin-left: 16px;
 }

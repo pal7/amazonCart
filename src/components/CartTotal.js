@@ -10,6 +10,7 @@ function CartTotal({ items }) {
       total += item.price * item.quantity;
     });
     //return total price
+    total = parseFloat(total).toFixed(2);
     return total;
   };
 
